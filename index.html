@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>CBSE Class 10 Progress Journal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf7f0;--surface:#fffdf8;--ink:#1f1c18;--muted:#6e6759;--line:#e7e0d2;--ring:#c8bfac;--accent:#b0553a;--onacc:#fffaf5;--soft:#f3e4dc;--track:#ebe5d8;--hover:#f3eee2;
+--serif:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;--sans:system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1a17;--surface:#24211d;--ink:#efeae0;--muted:#a59d8d;--line:#36322b;--ring:#524c41;--accent:#d27a5c;--onacc:#1c1a17;--soft:#3a2b24;--track:#34302a;--hover:#2b2723;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1c1a17;--surface:#24211d;--ink:#efeae0;--muted:#a59d8d;--line:#36322b;--ring:#524c41;--accent:#d27a5c;--onacc:#1c1a17;--soft:#3a2b24;--track:#34302a;--hover:#2b2723;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{background:var(--bg);scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--sans);-webkit-text-size-adjust:100%}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+*{-webkit-tap-highlight-color:transparent}
+button,a{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:manipulation}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+p{margin:0}h1,h2,h3,.big{font-family:var(--serif);font-weight:400;margin:0}
+h1{font-size:clamp(1.9rem,5vw,2.6rem);letter-spacing:-.015em;line-height:1.15}
+h2{font-size:1.3rem;line-height:1.3}
+.wrap{max-width:980px;margin:0 auto;padding:clamp(20px,5vw,56px) clamp(16px,4vw,32px) 64px}
+.mut{color:var(--muted)}
+.top{display:flex;gap:16px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}
+.top p{color:var(--muted);margin-top:6px;font-family:var(--serif);font-size:1.15rem}
+.tools{display:flex;gap:18px}
+.lnk{background:none;border:0;padding:4px 0;font:inherit;font-size:13px;color:var(--muted);cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+@media(hover:hover){.lnk:hover{color:var(--accent);text-decoration-color:currentColor}}
+.btn{font:inherit;font-size:14px;padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap}
+@media(hover:hover){.btn:hover{background:var(--hover)}}
+.pri,.pri:hover{background:var(--accent);border-color:var(--accent);color:var(--onacc)}
+input,textarea{font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px;width:100%;-webkit-appearance:none;appearance:none}
+input::placeholder{color:var(--muted)}
+.bar{height:3px;background:var(--track);border-radius:3px;overflow:hidden}
+.bar b{display:block;height:100%;background:var(--accent);border-radius:3px;transition:width .3s}
+.pc{font-size:13px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;min-width:40px}
+.layout{margin-top:40px}
+.dash{display:grid;gap:44px 64px;margin:0 0 48px}
+@media(min-width:760px){.dash{grid-template-columns:1fr 1fr}.d-next{grid-column:1/-1}.nl{display:grid;grid-template-columns:1fr 1fr;column-gap:56px}}
+@media(min-width:1100px){
+.wrap{max-width:1280px}
+.layout{display:grid;grid-template-columns:minmax(280px,340px) minmax(0,1fr);gap:56px;align-items:start;margin-top:80px}
+.tracker{padding-top:14px}
+.dash{grid-template-columns:1fr;gap:40px;margin:0;position:sticky;top:calc(24px + env(safe-area-inset-top,0px));max-height:calc(100vh - 48px);overflow-y:auto;padding-right:10px;scrollbar-width:thin}
+.d-next{grid-column:auto}.nl{display:block}}
+.big{font-size:clamp(4rem,14vw,5.5rem);line-height:1;letter-spacing:-.03em}
+.big small{font-size:.4em;color:var(--muted);margin-left:3px}
+.lead{margin:10px 0 2px;font-family:var(--serif);font-size:1.2rem}
+.dash .bar{margin-top:14px}
+.cats{display:grid;gap:16px;margin-top:30px}
+.cats .bar{margin-top:0}
+.r2{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px}.r2 span:last-child{color:var(--muted)}
+.dash h2{margin-bottom:6px}
+.sj{display:grid;grid-template-columns:minmax(80px,1.3fr) 2fr auto;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.sj .bar{margin:0}
+.nx{display:grid;grid-template-columns:1fr auto auto;gap:14px;align-items:center;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:11px 0;font:inherit;color:inherit;cursor:pointer}
+@media(hover:hover){.nx:hover .nm{color:var(--accent)}}
+.nt{min-width:0}.nt .nm{display:block;overflow-wrap:anywhere}.nt .sjn{display:block;font-size:13px;color:var(--muted)}
+.dots{display:flex;gap:5px}
+.dots .ic{width:10px;height:10px;border-width:1.5px}.dots .ic::after{display:none}
+.d-next .lnk{margin-top:12px}
+.ic{display:inline-block;width:16px;height:16px;border-radius:50%;border:1.5px solid var(--ring);position:relative;flex:none}
+.ic.s1{border-color:var(--accent);background:linear-gradient(90deg,var(--accent) 50%,transparent 50%)}
+.ic.s2{border-color:var(--accent);background:var(--accent)}
+.ic.s2::after{content:"";position:absolute;left:4px;top:1.5px;width:3.5px;height:7px;border:solid var(--bg);border-width:0 1.5px 1.5px 0;transform:rotate(45deg)}
+.tb{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:20px}
+#q{flex:1 1 220px;width:auto}
+.fs{display:flex;gap:6px;flex-wrap:wrap}
+.fs button{font:inherit;font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--muted);cursor:pointer}
+.fs button[aria-pressed=true]{background:var(--soft);border-color:var(--accent);color:var(--ink)}
+.subj{border-top:1px solid var(--line)}.subj:last-child{border-bottom:1px solid var(--line)}
+.shead{display:flex;align-items:center;gap:12px;width:100%;background:none;border:0;padding:16px 0 12px;font:inherit;color:inherit;cursor:pointer;text-align:left}
+.shead h2{flex:1;min-width:0}.shead .mut{font-size:13px}
+.chev{transition:transform .2s;color:var(--muted);flex:none}.chev.o{transform:rotate(90deg)}
+.body{padding:8px 0 22px}
+.row{display:grid;grid-template-columns:repeat(3,1fr);grid-template-areas:"n n n" ". . ." "g g g";gap:8px;padding:14px 0;border-bottom:1px solid var(--line);transition:background .6s}
+.row.flash{background:var(--soft)}
+.cn{grid-area:n;display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.nm{overflow-wrap:anywhere}.row.done .nm{color:var(--muted)}
+.acts{display:flex;gap:12px;flex:none}
+.pg{grid-area:g;display:flex;align-items:center;gap:12px}.pg .bar{flex:1}
+.hdr{display:none}
+.st{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:none;border:1px solid var(--line);border-radius:8px;padding:9px 6px;font:inherit;font-size:13px;color:var(--ink);cursor:pointer}
+@media(hover:hover){.st:hover{background:var(--hover)}}
+@media(hover:hover){.acts{opacity:0}.row:hover .acts,.acts:focus-within{opacity:1}}
+@media(min-width:720px){
+.row{grid-template-columns:minmax(0,1fr) 72px 72px 72px 120px;grid-template-areas:none;align-items:center;gap:8px 12px;padding:9px 0}
+.cn,.pg{grid-area:auto}
+.hdr{display:grid;padding:6px 0;font-size:13px;color:var(--muted)}.hdr span:not(:first-child){text-align:center}
+.st span{display:none}.st{border-color:transparent;justify-self:center;padding:7px 12px}}
+@media(min-width:560px) and (max-width:719px){.row{grid-template-columns:repeat(3,132px) minmax(0,1fr);grid-template-areas:"n n n n" ". . . g";align-items:center}}
+@media(min-width:1280px){.row{grid-template-columns:minmax(0,1fr) 80px 80px 80px 150px}}
+@media(min-width:720px) and (pointer:coarse){.st{padding:11px 14px}}
+.empty{padding:14px 0}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-top:18px;align-items:center}
+.add{display:flex;gap:8px;flex:1 1 280px;max-width:430px}.add input{flex:1;min-width:0}
+.acts2{display:flex;gap:16px}
+footer{margin-top:40px;font-size:13px;color:var(--muted);max-width:60ch}
+.credit{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px 16px;margin-top:72px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.credit a{color:inherit;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+@media(hover:hover){.credit a:hover{color:var(--accent);text-decoration-color:currentColor}}
+.tools{align-items:center}.tools .btn{padding:6px 14px;font-size:13px}
+.bn{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:28px;font-size:14px}
+.bnb{display:flex;gap:16px;align-items:center}
+.vo #bi,.vo #br,.vo #as,.vo #bs,.vo .acts{display:none}
+.st:disabled{cursor:default;color:var(--ink)}.st:disabled:hover{background:none}
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);padding:24px;width:min(500px,calc(100vw - 32px))}
+dialog::backdrop{background:rgba(30,26,20,.45)}
+dialog h3{font-size:1.4rem;margin-bottom:8px}dialog p{font-size:14px}
+dialog textarea{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;margin-top:12px}
+dialog #mf{margin-top:12px}
+dialog .file{margin-top:10px;font-size:13px;border:0;padding:0;background:none}
+.mb{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;margin-top:18px}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:10px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .25s;max-width:calc(100vw - 32px);text-align:center}
+#toast.on{opacity:1}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="bn"></div>
+<header class="top">
+<div><h1>Class 10 board preparation</h1><p>CBSE, one chapter at a time.</p></div>
+<div class="tools"><button class="btn" id="bs">Share</button><button class="lnk" id="bx">Export</button><button class="lnk" id="bi">Import</button><button class="lnk" id="br">Reset</button></div>
+</header>
+<div class="layout">
+<section class="dash" id="dash" aria-label="Overview"></section>
+<div class="tracker">
+<div class="tb">
+<input id="q" type="search" placeholder="Search subjects or chapters" aria-label="Search subjects or chapters" autocomplete="off">
+<div class="fs" id="fs"><button data-f="all">All</button><button data-f="new">Not started</button><button data-f="mid">In progress</button><button data-f="done">Completed</button></div>
+<button class="btn" id="as">Add subject</button>
+<button class="lnk" id="ex">Collapse all</button>
+</div>
+<main id="list"></main>
+<footer>Progress saves automatically in this browser. Each chapter has three parts, and In progress counts as half a part. Export a backup to keep your progress safe or to move it to another device.</footer>
+</div>
+</div>
+<div class="credit"><span>© <span id="yr">2026</span> PrayxD. All rights reserved.</span><a href="https://github.com/PrayxD" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+</div>
+<dialog id="dlg"></dialog>
+<div id="toast" role="status"></div>
+<script>
+const KEY="cbse10-tracker-v1",$=s=>document.querySelector(s);
+const uid=()=>Math.random().toString(36).slice(2,9);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const st=v=>v===1||v===2?v:0;
+const mk=(name,list)=>({id:uid(),name,open:false,chapters:list?list.split("|").map(n=>({id:uid(),name:n,t:0,q:0,p:0})):[]});
+const EN="First Flight: A Letter to God|First Flight: Nelson Mandela: Long Walk to Freedom|First Flight: Two Stories about Flying|First Flight: From the Diary of Anne Frank|First Flight: Glimpses of India|First Flight: Mijbil the Otter|First Flight: Madam Rides the Bus|First Flight: The Sermon at Benares|First Flight: The Proposal (play)|Poem: Dust of Snow|Poem: Fire and Ice|Poem: A Tiger in the Zoo|Poem: How to Tell Wild Animals|Poem: The Ball Poem|Poem: Amanda!|Poem: The Trees|Poem: Fog|Poem: The Tale of Custard the Dragon|Poem: For Anne Gregory|Footprints: A Triumph of Surgery|Footprints: The Thief’s Story|Footprints: The Midnight Visitor|Footprints: A Question of Trust|Footprints: Footprints Without Feet|Footprints: The Making of a Scientist|Footprints: The Necklace|Footprints: Bholi|Footprints: The Book That Saved the Earth";
+const HI="क्षितिज: पद (सूरदास)|क्षितिज: राम-लक्ष्मण-परशुराम संवाद|क्षितिज: आत्मकथ्य|क्षितिज: उत्साह और अट नहीं रही|क्षितिज: यह दंतुरहित मुस्कान और फसल|क्षितिज: कन्यादान|क्षितिज: संगतकार|क्षितिज: नेताजी का चश्मा|क्षितिज: बालगोबिन भगत|क्षितिज: लखनवी अंदाज़|क्षितिज: एक कहानी यह भी|क्षितिज: नौबतखाने में इबादत|क्षितिज: संस्कृति|कृतिका: माता का आँचल|कृतिका: साना साना हाथ जोड़ि|कृतिका: मैं क्यों लिखता हूँ?";
+const LISTS={English:EN,Hindi:HI};
+const seed=()=>{const s=[
+mk("Mathematics","Real Numbers|Polynomials|Pair of Linear Equations in Two Variables|Quadratic Equations|Arithmetic Progressions|Triangles|Coordinate Geometry|Introduction to Trigonometry|Some Applications of Trigonometry|Circles|Areas Related to Circles|Surface Areas and Volumes|Statistics|Probability"),
+mk("Science","Chemical Reactions and Equations|Acids, Bases and Salts|Metals and Non-metals|Carbon and Its Compounds|Life Processes|Control and Coordination|How do Organisms Reproduce?|Heredity|Light: Reflection and Refraction|The Human Eye and the Colourful World|Electricity|Magnetic Effects of Electric Current|Our Environment"),
+mk("Social Science","History: The Rise of Nationalism in Europe|History: Nationalism in India|History: The Making of a Global World|History: The Age of Industrialisation|History: Print Culture and the Modern World|Geography: Resources and Development|Geography: Forest and Wildlife Resources|Geography: Water Resources|Geography: Agriculture|Geography: Minerals and Energy Resources|Geography: Manufacturing Industries|Geography: Lifelines of National Economy|Civics: Power Sharing|Civics: Federalism|Civics: Gender, Religion and Caste|Civics: Political Parties|Civics: Outcomes of Democracy|Economics: Development|Economics: Sectors of the Indian Economy|Economics: Money and Credit|Economics: Globalisation and the Indian Economy|Economics: Consumer Rights"),
+mk("English",EN),mk("Hindi",HI)];s[0].open=true;return{subjects:s}};
+const norm=d=>!d||!Array.isArray(d.subjects)?null:{subjects:d.subjects.filter(s=>s&&typeof s.name==="string").map(s=>({id:uid(),name:s.name.slice(0,80),open:!!s.open,chapters:(Array.isArray(s.chapters)?s.chapters:[]).filter(c=>c&&typeof c.name==="string").map(c=>({id:uid(),name:c.name.slice(0,120),t:st(c.t),q:st(c.q),p:st(c.p)}))}))};
+let S;try{S=norm(JSON.parse(localStorage.getItem(KEY)))}catch(e){}S=S||seed();
+try{if(!localStorage.getItem("cbse10-lists-v2")){S.subjects.forEach(s=>{const l=LISTS[s.name];if(l&&!s.chapters.length)s.chapters=mk(s.name,l).chapters});localStorage.setItem("cbse10-lists-v2","1");localStorage.setItem(KEY,JSON.stringify(S))}}catch(e){}
+let viewOnly=false,own=null;
+const save=()=>{if(viewOnly)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
+const b64=u=>{let s="";u.forEach(c=>s+=String.fromCharCode(c));return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"")};
+const ub64=t=>{t=t.replace(/-/g,"+").replace(/_/g,"/");return Uint8Array.from(atob(t+"=".repeat((4-t.length%4)%4)),c=>c.charCodeAt(0))};
+async function enc(o){const j=JSON.stringify(o);try{const r=await new Response(new Blob([j]).stream().pipeThrough(new CompressionStream("deflate-raw"))).arrayBuffer();return"z"+b64(new Uint8Array(r))}catch(e){return"p"+b64(new TextEncoder().encode(j))}}
+async function dec(t){const b=ub64(t.slice(1));if(t[0]=="z")return JSON.parse(await new Response(new Blob([b]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).text());return JSON.parse(new TextDecoder().decode(b))}
+const fromShare=d=>d&&Array.isArray(d.s)?norm({subjects:d.s.map((s,i)=>({name:s[0],open:i==0,chapters:(s[1]||[]).map(c=>({name:c[0],t:c[1],q:c[2],p:c[3]}))}))}):null;
+const L=["Not started","In progress","Completed"],K=[["t","Theory"],["q","Questions"],["p","PYQs"]];
+const val=x=>x==2?1:x==1?.5:0,cp=c=>(val(c.t)+val(c.q)+val(c.p))*100/3;
+const kind=c=>{const p=cp(c);return p>99.9?"done":p<.1?"new":"mid"};
+const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null,sp=s=>avg(s.chapters.map(cp)),R=Math.round;
+const all=()=>S.subjects.flatMap(s=>s.chapters.map(c=>({s,c})));
+const bar=p=>`<div class="bar"><b style="width:${p}%"></b></div>`;
+const pct=p=>p==null?"–":R(p)+"%";
+let q="",f="all",showAll=false;
+const sm=()=>matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth";
+
+function dash(){
+const a=all(),n=a.length,done=a.filter(x=>kind(x.c)=="done").length,o=avg(a.map(x=>cp(x.c)));
+const todo=a.filter(x=>kind(x.c)!="done"),shown=showAll?todo:todo.slice(0,8);
+$("#dash").innerHTML=`<div><div class="big">${o==null?"–":R(o)}${o==null?"":"<small>%</small>"}</div>
+<p class="lead">${n?`${done} of ${n} chapters completed`:"Add a chapter to begin."}</p>${bar(o||0)}
+<div class="cats">${K.map(([k,l])=>{const d=a.filter(x=>x.c[k]==2).length;return `<div><div class="r2"><span>${l}</span><span>${d} of ${n} done</span></div>${bar(n?d*100/n:0)}</div>`}).join("")}</div></div>
+<div><h2>Subjects</h2>${S.subjects.map(s=>`<div class="sj"><span>${esc(s.name)}</span>${bar(sp(s)||0)}<span class="pc">${pct(sp(s))}</span></div>`).join("")||`<p class="mut">No subjects yet.</p>`}</div>
+<div class="d-next"><h2>Still to do</h2>${todo.length?`<div class="nl">`+shown.map(x=>`<button class="nx" data-a="jump" data-s="${x.s.id}" data-c="${x.c.id}"><span class="nt"><span class="nm">${esc(x.c.name)}</span><span class="sjn">${esc(x.s.name)}</span></span><span class="dots">${K.map(([k])=>`<i class="ic s${x.c[k]}"></i>`).join("")}</span><span class="pc">${R(cp(x.c))}%</span></button>`).join("")+`</div>`+(todo.length>8?`<button class="lnk" data-a="more">${showAll?"Show fewer":"Show all "+todo.length}</button>`:""):`<p class="mut">${n?"Every chapter is complete. Well done.":"Nothing to show yet."}</p>`}</div>`}
+
+const row=(s,c)=>{const p=cp(c),d=`data-s="${s.id}" data-c="${c.id}"`;return `<div class="row ${kind(c)}" id="c-${c.id}"><div class="cn"><span class="nm">${esc(c.name)}</span><span class="acts"><button class="lnk" data-a="rc" ${d}>Rename</button><button class="lnk" data-a="dc" ${d}>Delete</button></span></div>${K.map(([k,l])=>`<button class="st" data-a="st" ${d} data-k="${k}"${viewOnly?" disabled":""} aria-label="${l}: ${L[c[k]]}${viewOnly?"":". Click to change."}" title="${l}: ${L[c[k]]}"><i class="ic s${c[k]}"></i><span>${l}</span></button>`).join("")}<div class="pg">${bar(p)}<span class="pc">${R(p)}%</span></div></div>`};
+
+function list(){
+const forced=q||f!="all";let h="";
+S.subjects.forEach(s=>{
+const hit=q&&s.name.toLowerCase().includes(q);
+const cs=s.chapters.filter(c=>(f=="all"||kind(c)==f)&&(!q||hit||c.name.toLowerCase().includes(q)));
+if(forced&&!cs.length)return;
+const open=forced||s.open,dn=s.chapters.filter(c=>kind(c)=="done").length;
+h+=`<section class="subj" id="s-${s.id}"><button class="shead" data-a="tog" data-s="${s.id}" aria-expanded="${!!open}"><svg class="chev ${open?"o":""}" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l4 4-4 4"/></svg><h2>${esc(s.name)}</h2><span class="mut">${dn} of ${s.chapters.length} chapters</span><span class="pc">${pct(sp(s))}</span></button>${bar(sp(s)||0)}`;
+if(open){h+=`<div class="body">`+(cs.length?`<div class="row hdr"><span>Chapter</span><span>Theory</span><span>Questions</span><span>PYQs</span><span>Progress</span></div>`+cs.map(c=>row(s,c)).join(""):`<p class="mut empty">No chapters yet.${viewOnly?"":" Add the first one below."}</p>`);
+if(!forced&&!viewOnly)h+=`<div class="foot"><form class="add" data-s="${s.id}"><input data-add="${s.id}" placeholder="Add a chapter" aria-label="New chapter name" maxlength="120"><button class="btn" type="submit">Add chapter</button></form><span class="acts2"><button class="lnk" data-a="rs" data-s="${s.id}">Rename subject</button><button class="lnk" data-a="ds" data-s="${s.id}">Delete subject</button></span></div>`;
+h+=`</div>`}
+h+=`</section>`});
+$("#list").innerHTML=h||`<p class="mut">${S.subjects.length?"Nothing matches your search or filter.":"No subjects yet. Add one to get started."}</p>`;
+$("#ex").textContent=S.subjects.some(s=>s.open)?"Collapse all":"Expand all"}
+
+const syncF=()=>document.querySelectorAll("#fs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.f==f));
+const upd=focus=>{save();dash();list();if(focus){const e=$(focus);e&&e.focus()}};
+const find=(sid,cid)=>{const s=S.subjects.find(x=>x.id==sid);return[s,s&&s.chapters.find(x=>x.id==cid)]};
+let tt;const toast=m=>{const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("on"),2800)};
+
+const dlg=$("#dlg");
+function modal(o){return new Promise(res=>{
+let fin=false;
+dlg.innerHTML=`<form><h3>${esc(o.title)}</h3>${o.msg?`<p class="mut">${esc(o.msg)}</p>`:""}${o.area?`<textarea id="mf" rows="${o.rows||9}" spellcheck="false"${o.ro?" readonly":""}>${esc(o.value||"")}</textarea>`:o.input?`<input id="mf" type="text" value="${esc(o.value||"")}" maxlength="120" autocomplete="off">`:""}${o.extra||""}<div class="mb">${o.btn||""}<button type="button" class="btn" id="mc">${o.cancel||"Cancel"}</button><button class="btn pri">${o.ok||"Save"}</button></div></form>`;
+const mf=$("#mf"),done=r=>{if(fin)return;fin=true;const v=mf&&!o.ro?mf.value:true;dlg.close();res(r===true?v:r||null)};
+dlg.querySelector("form").onsubmit=e=>{e.preventDefault();done(true)};
+$("#mc").onclick=()=>done(false);dlg.onclose=()=>done(false);
+o.setup&&o.setup(done);dlg.showModal();if(mf&&!o.ro)mf.focus()})}
+
+async function copy(t){try{await navigator.clipboard.writeText(t);toast("Copied to clipboard.")}catch(e){toast("Couldn’t copy automatically. Select the text and copy it.")}}
+
+$("#list").addEventListener("click",async e=>{
+const b=e.target.closest("[data-a]");if(!b)return;
+const{a,s:sid,c:cid,k}=b.dataset,[s,c]=find(sid,cid);
+if(viewOnly&&a!="tog")return;
+if(a=="tog"){s.open=!s.open;upd()}
+else if(a=="st"){c[k]=(c[k]+1)%3;upd(`[data-c="${cid}"][data-k="${k}"]`)}
+else if(a=="rc"){const v=await modal({title:"Rename chapter",input:1,value:c.name});if(v&&v.trim()){c.name=v.trim();upd()}}
+else if(a=="dc"){if(await modal({title:"Delete chapter?",msg:`“${c.name}” and its progress will be removed.`,ok:"Delete"})){s.chapters=s.chapters.filter(x=>x!==c);upd()}}
+else if(a=="rs"){const v=await modal({title:"Rename subject",input:1,value:s.name});if(v&&v.trim()){s.name=v.trim();upd()}}
+else if(a=="ds"){if(await modal({title:"Delete subject?",msg:`“${s.name}” and all ${s.chapters.length} of its chapters will be removed.`,ok:"Delete"})){S.subjects=S.subjects.filter(x=>x!==s);upd()}}
+});
+$("#list").addEventListener("submit",e=>{e.preventDefault();if(viewOnly)return;const fm=e.target,v=fm.querySelector("input").value.trim();if(!v)return;
+const s=S.subjects.find(x=>x.id==fm.dataset.s);s.chapters.push({id:uid(),name:v,t:0,q:0,p:0});upd(`[data-add="${s.id}"]`)});
+
+function jump(sid,cid){q="";f="all";$("#q").value="";syncF();const s=S.subjects.find(x=>x.id==sid);s.open=true;save();list();
+const e=$("#c-"+cid);if(e){e.scrollIntoView({block:"center",behavior:sm()});e.classList.add("flash");setTimeout(()=>e.classList.remove("flash"),1600)}}
+$("#dash").addEventListener("click",e=>{const b=e.target.closest("[data-a]");if(!b)return;if(b.dataset.a=="more"){showAll=!showAll;dash()}else jump(b.dataset.s,b.dataset.c)});
+
+$("#q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();list()});
+$("#fs").addEventListener("click",e=>{const b=e.target.closest("[data-f]");if(!b)return;f=b.dataset.f;syncF();list()});
+$("#ex").onclick=()=>{const any=S.subjects.some(s=>s.open);S.subjects.forEach(s=>s.open=!any);save();list()};
+$("#as").onclick=async()=>{const v=await modal({title:"Add subject",input:1,ok:"Add subject"});if(v&&v.trim()){const s=mk(v.trim());s.open=true;S.subjects.push(s);upd();const e=$("#s-"+s.id);e&&e.scrollIntoView({behavior:sm()})}};
+
+$("#bx").onclick=async()=>{
+const json=JSON.stringify({app:"cbse10-tracker",version:1,exportedAt:new Date().toISOString(),subjects:S.subjects},null,2);
+let dl=null;try{dl=window.claude&&await claude.use("downloads")}catch(e){}
+await modal({title:"Export progress",msg:"Copy this backup or save it as a file. Import it later to restore everything.",area:1,ro:1,value:json,ok:"Copy to clipboard",cancel:"Close",
+btn:dl?`<button type="button" class="btn" id="mx">Save as file</button>`:"",
+setup:()=>{dlg.querySelector("form").onsubmit=e=>{e.preventDefault();copy(json)};const x=$("#mx");
+if(x)x.onclick=()=>dl.save({filename:"cbse-class10-progress.json",data:json}).then(()=>toast("Backup saved.")).catch(er=>{if(!er||er.code!="declined")toast("Couldn’t save the file. Try copying instead.")})}})};
+
+$("#bi").onclick=async()=>{
+const v=await modal({title:"Import progress",msg:"Choose a backup file or paste its contents below. This replaces everything currently in the tracker.",area:1,ok:"Import",
+extra:`<input type="file" id="mfile" class="file" accept=".json,application/json">`,
+setup:()=>{$("#mfile").onchange=e=>{const fl=e.target.files[0];if(fl)fl.text().then(t=>{$("#mf").value=t})}}});
+if(!v)return;let d=null;try{d=norm(JSON.parse(v))}catch(e){}
+if(!d){toast("That doesn’t look like a progress backup.");return}
+S=d;upd();toast("Progress imported.")};
+
+$("#br").onclick=async()=>{
+const r=await modal({title:"Reset the tracker?",msg:"Reset everything restores the starting subjects and chapters and removes any you added. Clear progress only keeps your subjects and chapters and sets every item back to Not started. Export a backup first if you may want this data again.",ok:"Reset everything",
+btn:`<button type="button" class="btn" id="mx">Clear progress only</button>`,setup:done=>{$("#mx").onclick=()=>done("alt")}});
+if(r===true)S=seed();else if(r=="alt")S.subjects.forEach(s=>s.chapters.forEach(c=>{c.t=c.q=c.p=0}));else return;
+upd();toast("Tracker reset.")};
+
+$("#yr").textContent=new Date().getFullYear();
+$("#bs").onclick=async()=>{
+let tok;try{tok=await enc({v:1,s:S.subjects.map(s=>[s.name,s.chapters.map(c=>[c.name,c.t,c.q,c.p])])})}catch(e){toast("Couldn’t create the link.");return}
+const url=location.href.split("#")[0]+"#share="+tok;
+await modal({title:"Share your progress",msg:"Anyone with this link sees a read-only snapshot of your progress as it is right now. It doesn’t update later, so create a new link to share newer progress.",area:1,ro:1,rows:5,value:url,ok:"Copy link",cancel:"Close",
+btn:navigator.share?`<button type="button" class="btn" id="mx">Share…</button>`:"",
+setup:()=>{dlg.querySelector("form").onsubmit=e=>{e.preventDefault();copy(url)};$("#mf").onclick=e=>e.target.select();const x=$("#mx");if(x)x.onclick=()=>navigator.share({title:"My CBSE Class 10 progress",url}).catch(()=>{})}})};
+const leave=()=>{try{history.replaceState(null,"",location.pathname+location.search)}catch(e){location.hash=""}viewOnly=false;document.body.classList.remove("vo");banner();dash();list()};
+function banner(){const b=$("#bn");if(!viewOnly){b.className="";b.innerHTML="";return}
+b.className="bn";b.innerHTML=`<span>You’re viewing a shared snapshot. It’s read-only and isn’t saved in this browser.</span><span class="bnb"><button class="btn pri" id="bm">Make my own copy</button><button class="lnk" id="bb">Back to my tracker</button></span>`;
+$("#bb").onclick=()=>{S=own;leave()};
+$("#bm").onclick=async()=>{if(await modal({title:"Make your own copy?",msg:"This replaces the tracker saved in this browser with the shared subjects, chapters and progress.",ok:"Replace and copy"})){leave();save()}}}
+addEventListener("hashchange",()=>location.reload());
+syncF();
+(async()=>{const m=location.hash.match(/^#share=(.+)$/);
+if(m){try{const sn=fromShare(await dec(m[1]));if(!sn)throw 0;own=S;S=sn;viewOnly=true}catch(e){toast("That share link couldn’t be opened.")}}
+document.body.classList.toggle("vo",viewOnly);banner();dash();list()})();
+</script>
+</body>
+</html>
