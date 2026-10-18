@@ -32,23 +32,11 @@ A calm, no-account progress tracker for CBSE Class 10 board preparation. Track e
 
 Open `index.html` in any modern browser. There is no build step and nothing to install.
 
-## Deploy
-
-The site is a single static file, so it works on GitHub Pages:
-
-1. Put `index.html` in the root of the repository.
-2. Go to **Settings, Pages**, choose **Deploy from a branch**, then `main` and `/ (root)`.
-3. Optional: add a custom domain under **Settings, Pages, Custom domain** and turn on **Enforce HTTPS**.
-
 ## Customising the syllabus
 
 Chapters can be added, renamed and deleted inside the app. To change the defaults for new visitors, edit the chapter lists near the top of the script in `index.html` (the `seed()` function and the `EN` and `HI` lists).
 
 The chapter lists follow NCERT books and the 2026-27 CBSE syllabus where it could be confirmed. Schools can differ, so delete any chapter yours skips.
-
-## Built with
-
-Plain HTML, CSS and JavaScript in one file. Headings use the Newsreader typeface from Google Fonts.
 
 ## Credits
 
