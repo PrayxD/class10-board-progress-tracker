@@ -2,7 +2,7 @@
 
 A calm, no-account progress tracker for CBSE Class 10 board preparation. Track every chapter across **Theory**, **Questions** and **PYQs**, and see at a glance what is left to study.
 
-**Live site:** https://YOUR-SUBDOMAIN.is-a.dev
+**Live site:** https://prayxd.github.io/class10-board-progress-tracker/
 
 ## Features
 
